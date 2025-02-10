@@ -6,7 +6,7 @@ Node image used for Concourse runtime
 Run the following command in this folder to build a new image:
 
 ```
-docker build -t ci-node-runtime -f ./Dockerfile . --build-arg NODE_VERSION=<NODE_VERSION> NPM_VERSION=<NPM_VERSION>
+docker build -t ci-node-runtime -f ./Dockerfile . --build-arg NODE_VERSION=<NODE_VERSION>
 ```
 
 # Running a container
